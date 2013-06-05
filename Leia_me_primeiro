@@ -5,7 +5,7 @@ A criação deste jogo tem como objetivo realizar uma documentação e investiga
 O caráter lúdico, educativo e informativo de um jogo de tabuleiro para trabalhar o tema cria uma narrativa divertida e informal para aprender, debater e dialogar sobre estes temas. Então, o intuito deste jogo não é apenas ser uma mecânica divertida para as pessoas que já estão inseridas dentro deste universo, é também ser uma ferramenta para que pessoas que conheçam pouco ou desconheçam o processo de comunidades de código livre e dados abertos possam através do jogo terem uma oportunidade de aprendizado e familiaridade com este universo.
 
 Criamos esta documentação no Github com o intuito de colher as mais diversas sugestões para o desenvolvimento deste jogo, pra isso detalharemos abaixo todas as etapas no processo de criação da estrutura de um jogo. Desde a escolha do tema até a escolha das ferramentas usadas. Daremos exemplos destes detalhes de dois jogos para facilitar e direcionar melhor as sugestões que queremos. Um dos jogos é um jogo desenvolvido por nós da Quequeré Jogos chamado: A Conta da Copa é Nossa (que conta com bastante dados reais, que queremos no jogo sobre as comunidades de código) e outro jogo, o Banco Imobiliário, que como já é uma mecânica conhecida, facilita ainda mais este feedback.
- 
+
 1 - O JOGO
 
 O jogo está baseado num processo completamente aberto, o único preceito é que seja um jogo cooperativo, ou seja, mesmo que haja uma independência de ações entre os jogadores, o objetivo final do jogo tem que ser um objetivo comum entre os participantes, uma vez que a própria estrutura de Comunidade de Código Livre e Dados Abertos funciona desta forma, entre ajuda mútua e objetivos em comum.
