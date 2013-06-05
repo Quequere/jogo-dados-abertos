@@ -1,38 +1,40 @@
+CRIAÇAO DE UM JOGO DE TABULEIRO SOBRE COMUNIDADES DE SOFTWARE LIVRE E DADOS ABERTOS
 
-CRIAÇAO DE UM JOGO DE TABULEIRO SOBRE COMUNIDADES DE SOFTWARE LIVRES E DADOS ABERTOS
+A criação deste jogo tem como objetivo realizar uma documentação e investigação sobre os processos de participação social que são transversais às comunidades de software livre - tanto pelo processo horizontal e colaborativo como pela adesão cada vez mais potente desses atores nos movimentos sociais, no ativismo político. No limite, parte de uma leitura de que o desejo de autonomia, revolução e transformação que vem do encontro entre as comunidades de desenvolvedores, movimentos sociais e ativistas pode, sim, construir uma nova política.
 
-A criação deste jogo tem como objetivo realizar uma documentação e investigação sobre os processos de participação social que são transversais às comunidades de software livre - tanto pelo processo horizontal e colaborativo como pela adesão cada vez mais potente desses atores nos movimentos sociais, no ativismo. No limite, parte de uma leitura de que o desejo de autonomia, revolução e transformação que vem o encontro entre as comunidades de desenvolvedores, movimentos sociais e ativistas pode, sim, construir uma nova política.
-O caráter lúdico, educativo e informativo de um jogo de tabuleiro para trabalhar o tema cria uma narrativa divertida e informal para aprender, debater e dialogar sobre estes temas. Então, o intuito deste jogo não é apenas ser uma mecânica divertida para as pessoas que já estão inseridas dentro deste universo, é também ser uma ferramenta para que pessoas que conheçam pouco ou desconheçam o processo de comunidades de dados abertos possam através do jogo terem uma oportunidade de aprendizado e familiaridade com este universo.
-Criamos esta documentação no Github com o intuito de colher as mais diversas sugestões para o desenvolvimento deste jogo, pra isso detalharemos abaixo todas as etapas no processo de criação da estrutura de um jogo. Desde a escolha do tema até a escolha das ferramentas usadas. Daremos exemplos destes detalhes de dois jogos para facilitar e direcionar melhor as sugestões que queremos. Um dos jogos é um jogo desenvolvido por nós da Quequeré Jogos chamado: A Conta da Copa é Nossa (que conta com bastante dados reais, que queremos no jogo dos Dados Abertos) e outro o Banco Imobiliário, que como já é uma mecânica conhecida, facilita ainda mais este feedback.
+O caráter lúdico, educativo e informativo de um jogo de tabuleiro para trabalhar o tema cria uma narrativa divertida e informal para aprender, debater e dialogar sobre estes temas. Então, o intuito deste jogo não é apenas ser uma mecânica divertida para as pessoas que já estão inseridas dentro deste universo, é também ser uma ferramenta para que pessoas que conheçam pouco ou desconheçam o processo de comunidades de código livre e dados abertos possam através do jogo terem uma oportunidade de aprendizado e familiaridade com este universo.
+
+Criamos esta documentação no Github com o intuito de colher as mais diversas sugestões para o desenvolvimento deste jogo, pra isso detalharemos abaixo todas as etapas no processo de criação da estrutura de um jogo. Desde a escolha do tema até a escolha das ferramentas usadas. Daremos exemplos destes detalhes de dois jogos para facilitar e direcionar melhor as sugestões que queremos. Um dos jogos é um jogo desenvolvido por nós da Quequeré Jogos chamado: A Conta da Copa é Nossa (que conta com bastante dados reais, que queremos no jogo sobre as comunidades de código) e outro jogo, o Banco Imobiliário, que como já é uma mecânica conhecida, facilita ainda mais este feedback.
  
 1 - O JOGO
-O jogo está num processo ainda completamente aberto, o único preceito é que seja um jogo cooperativo, ou seja, mesmo que haja uma independência de ações entre os jogadores, o objetivo final do jogo tem que ser um objetivo comum entre os participantes, uma vez que a própria estrutura de Comunidade de Dados Abertos funciona desta forma, entre ajuda mútua e objetivos em comum.
 
-A participação online ficará disponível até o fim do desenvolvimento do jogo (final de Junho) e conforme algumas escolhas do jogo forem sendo sendimentas atualizaremos as informações para termos sugestões mais específicas.
+O jogo está baseado num processo completamente aberto, o único preceito é que seja um jogo cooperativo, ou seja, mesmo que haja uma independência de ações entre os jogadores, o objetivo final do jogo tem que ser um objetivo comum entre os participantes, uma vez que a própria estrutura de Comunidade de Código Livre e Dados Abertos funciona desta forma, entre ajuda mútua e objetivos em comum.
+
+A participação online ficará disponível até o fim do desenvolvimento do jogo e conforme algumas escolhas do jogo forem sendo sendimentas atualizaremos as informações para termos sugestões mais específicas.
  
 2- PROCESSO DE DESENVOVIMENTO DOS JOGOS
-I
-O desenvolvimento de um jogo acontece normalmente de uma forma caótica, não planejada, com todos os processos ocorrendo ao mesmo tempo, concomitantemente e influenciando cada um o desenvolvimento do outro. Mas para fim de apresentação de cada etapa vamos separar os diferentes cortes de leitura que se pode ter no jogo, tanto para facilitar o compreendimento do processo como os feedbacks de retorno que queremos
 
-a) Objeto: é sobre qual universo o jogo trata - quando não abstrato - no nosso desenvolvimento ele já está definido, que é: Comundiades de Software Livre e Dados Abertos
+O desenvolvimento de um jogo acontece normalmente de uma forma caótica, não planejada, com todos os processos ocorrendo ao mesmo tempo, concomitantemente e influenciando cada um o desenvolvimento do outro. Mas para fim de apresentação de cada etapa vamos separar os diferentes cortes de leitura que se pode ter no jogo, tanto para facilitar o compreendimento do processo como os feedbacks de retorno que queremos:
 
-b)Tema: é o foco que o jogo aborda dentro do universo que ele escolheu tratar. No jogo da Copa do Mundo que será apresentado o foco é a Construção das Obras da Copa do Mundo, mas poderia ser as seleções de cada país, o legado pós copa, as remoções de moradores, etc... 
+a) Objeto: é sobre qual universo o jogo trata - quando não abstrato - no nosso desenvolvimento ele já está definido, que é: Comunidades de Software Livre e Dados Abertos;
 
-c) Papel do jogador: define qual vai ser a identidade de cada jogador dentro do jogo. Os jogadores podem ter identidades similares, ou diferentes. Quando possuem identidades similares acabam representando os mesmos papéis e tendem a seguir as mesmas opções de jogo, quando possuem identidades diferentes apesar de seguir regras similares tendem a ter diferentes opções de jogo que casem com sua identidade.
+b) Tema: é o foco que o jogo aborda dentro do universo que ele escolheu tratar. No jogo da Copa do Mundo que será apresentado o foco é a Construção das Obras da Copa do Mundo, mas poderia ser as seleções de cada país, o legado pós copa, as remoções de moradores etc;
 
-d) Objetivo do jogo: define a causa do jogo, qual a finalidade do mesmo. Como vamos elaborar um jogo coletivo esta finalidade é comum a todos jogadores.
+c) Papel do jogador: define qual vai ser a identidade de cada jogador dentro do jogo. Os jogadores podem ter identidades similares, ou diferentes. Quando possuem identidades similares acabam representando os mesmos papéis e tendem a seguir as mesmas opções de jogo, quando possuem identidades diferentes apesar de seguir regras similares tendem a ter diferentes opções de jogo que casem com sua identidade;
+
+d) Objetivo do jogo: define a causa do jogo, qual a finalidade do mesmo. Como vamos elaborar um jogo coletivo esta finalidade é comum a todos jogadores;
 
 e) Mensuração do Objetivo (pontuação): define como será a mensuração do objetivo. Haverá pontuaçao ou não? Ou será um fato específico que define (como um xeque-mate no xadrez). Quais as possibilidades de mensurar o objetivo proposto no jogo?
 
-f) Modos de adquirir pontuação: Se o jogo tiver pontuação para mensurar o(s) objetivo(s) do jogo, quais as formas que serão utilziadas pra isso.
+f) Modos de adquirir pontuação: Se o jogo tiver pontuação para mensurar o(s) objetivo(s) do jogo, quais as formas que serão utilziadas pra isso;
 
-g) Dinâmica (tempo de jogo): define a duração do jogo, e o ritmo que ele terá, se terão rodadas definidas ou indefinidas, fases específicas. Outro faotr importante é como este tempo se encaixa e se envolve com o tema definido.  O tempo define o que? A passagem de dias, meses e anos? O tempo de um processo de trabalho? É um tempo abstrato?
+g) Dinâmica (tempo de jogo): define a duração do jogo, e o ritmo que ele terá, se terão rodadas definidas ou indefinidas, fases específicas. Outro fator importante é como este tempo se encaixa e se envolve com o tema definido.  O tempo define o que? A passagem de dias, meses e anos? O tempo de um processo de trabalho? É um tempo abstrato?
 
 h) Dinâmica (ordem do jogo): define como os acontecimentos do jogo irão se suceder ao longo da partida, se os jogadores jogam em ordem ou ao mesmo tempo, se existem etapas que precisam ocorrer anteriores a outras.
 
-i) Mecânica (espinha dorsal): define qual o principal mecanismo do jogo, que dá a sua identidade, ou também se não há uma mcânica principal.
+i) Mecânica (espinha dorsal): define qual o principal mecanismo do jogo, que dá a sua identidade, ou também se não há uma mecânica principal.
 
-j) Mecâncias (secundárias): define as regras secundárias do jogo, que orbitam em torno do mecanismo principal, caso não tenha uma emcânica principal, define a mecânica geral do jogo,  composto de vários micro mecanismos.
+j) Mecânicas secundárias: define as regras secundárias do jogo, que orbitam em torno do mecanismo principal, caso não tenha uma emcânica principal, define a mecânica geral do jogo, composto de vários micro mecanismos.
 
 l) Ações: define quais ações o jogador pode tomar durante o jogo, o que ele pode realizar dentro da partida, quais habilidades possíveis que podem desenvolver. 
 
